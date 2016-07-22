@@ -1,0 +1,43 @@
+hr {
+	width: 80px;
+	margin: 0;
+	border: 1px solid black;
+}
+div{
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}
+p{
+	display: inline-block;
+	position: absolute;
+	color: white;
+	bottom: 5px;
+	right: 5px;
+}
+.foto1{
+  	background-image: url("../img/profile-1.png");
+}
+.foto2{
+ 	background-image: url("../img/profile-2.png");
+}
+.foto3{
+  	background-image: url("../img/profile-3.png");
+}
+.foto4{
+  	background-image: url("../img/profile-4.png");
+  	clear: both;
+}
+.foto5{
+  	background-image: url("../img/profile-5.png");
+}
+.foto6{
+  	background-image: url("../img/profile-6.png");
+}
+.img {
+	-webkit-filter: brightness(70%);
+  	filter: brightness(70%);
+}
